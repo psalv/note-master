@@ -1101,7 +1101,7 @@
 
 "@babel/runtime@^7.17.2":
   version "7.17.9"
-  resolved "https://verdaccio.faire.team/@babel%2fruntime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
+  resolved "https://registry.yarnpkg.com/@babel%2fruntime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
   integrity sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==
   dependencies:
     regenerator-runtime "^0.13.4"
@@ -1734,7 +1734,7 @@
 
 "@types/lodash@^4.14.181":
   version "4.14.181"
-  resolved "https://verdaccio.faire.team/@types%2flodash/-/lodash-4.14.181.tgz#d1d3740c379fda17ab175165ba04e2d03389385d"
+  resolved "https://registry.yarnpkg.com/@types%2flodash/-/lodash-4.14.181.tgz#d1d3740c379fda17ab175165ba04e2d03389385d"
   integrity sha512-n3tyKthHJbkiWhDZs3DkhkCzt2MexYHXlX0td5iMplyfwketaOeKboEVBqzceH7juqvEg3q5oUoBFxSLu7zFag==
 
 "@types/minimatch@*":
@@ -2489,7 +2489,7 @@ atob@^2.1.2:
 
 automation-events@^4.0.14:
   version "4.0.14"
-  resolved "https://verdaccio.faire.team/automation-events/-/automation-events-4.0.14.tgz#bf2b147beaea71cce80dc913afa6e428dd4f2abf"
+  resolved "https://registry.yarnpkg.com/automation-events/-/automation-events-4.0.14.tgz#bf2b147beaea71cce80dc913afa6e428dd4f2abf"
   integrity sha512-CB2Me0yW8sz7gSGwMiSfgfs1Oqlgs53k+eVESN6axvRyMAD3zlSp2nqndD2TQAtW3yOtSEJWNGsw0r48+f1wtw==
   dependencies:
     "@babel/runtime" "^7.17.2"
@@ -6980,7 +6980,7 @@ lodash.uniq@^4.5.0:
 
 lodash@^4.17.21:
   version "4.17.21"
-  resolved "https://verdaccio.faire.team/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loglevel@^1.6.8:
@@ -10133,7 +10133,7 @@ stackframe@^1.1.1:
 
 standardized-audio-context@^25.1.8:
   version "25.3.21"
-  resolved "https://verdaccio.faire.team/standardized-audio-context/-/standardized-audio-context-25.3.21.tgz#c75fb668e6a960ac7dff95d80f4b102043b07645"
+  resolved "https://registry.yarnpkg.com/standardized-audio-context/-/standardized-audio-context-25.3.21.tgz#c75fb668e6a960ac7dff95d80f4b102043b07645"
   integrity sha512-CZEnayJJjNefeU+z1QGDhaid1LAAYxWYa2ipNk75ropwec9rq6fmclyhXb1wGtDsZ402irX3HLt1U/PwP9+1fA==
   dependencies:
     "@babel/runtime" "^7.17.2"
@@ -10618,7 +10618,7 @@ toidentifier@1.0.0:
 
 tone@^14.7.77:
   version "14.7.77"
-  resolved "https://verdaccio.faire.team/tone/-/tone-14.7.77.tgz#12a2a9f033952ccdb552275a6384ca5d36d4b5ed"
+  resolved "https://registry.yarnpkg.com/tone/-/tone-14.7.77.tgz#12a2a9f033952ccdb552275a6384ca5d36d4b5ed"
   integrity sha512-tCfK73IkLHyzoKUvGq47gyDyxiKLFvKiVCOobynGgBB9Dl0NkxTM2p+eRJXyCYrjJwy9Y0XCMqD3uOYsYt2Fdg==
   dependencies:
     standardized-audio-context "^25.1.8"
@@ -10675,7 +10675,7 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
 
 tslib@^2.0.1, tslib@^2.3.1:
   version "2.3.1"
-  resolved "https://verdaccio.faire.team/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tsutils@^3.17.1:
