@@ -5,6 +5,7 @@ import { Typography } from "./components/Typography";
 import { sample } from "lodash";
 import styled from "styled-components";
 import * as Tone from "tone";
+import { Mobile, TabletAndAbove } from "./components/Responsive";
 
 const MAX_BPM = 200;
 const MS_PER_MINUTE = 60 * 1000;
@@ -107,6 +108,7 @@ export class App extends React.Component<
           <InnerColumn>
             {/* prettier-ignore */}
             <Row style={{justifyContent: 'center', fontFamily: "monospace", whiteSpace: "pre", lineHeight: '13px'}}>
+            <TabletAndAbove>
               ███▄    █  ▒█████  ▄▄▄█████▓▓█████     ███▄ ▄███▓ ▄▄▄        ██████ ▄▄▄█████▓▓█████  ██▀███<br/>
               ██ ▀█   █ ▒██▒  ██▒▓  ██▒ ▓▒▓█   ▀    ▓██▒▀█▀ ██▒▒████▄    ▒██    ▒ ▓  ██▒ ▓▒▓█   ▀ ▓██ ▒ ██▒<br/>
               ▓██  ▀█ ██▒▒██░  ██▒▒ ▓██░ ▒░▒███      ▓██    ▓██░▒██  ▀█▄  ░ ▓██▄   ▒ ▓██░ ▒░▒███   ▓██ ░▄█ ▒<br/>
@@ -116,6 +118,10 @@ export class App extends React.Component<
               ░ ░░   ░ ▒░  ░ ▒ ▒░     ░     ░ ░  ░   ░  ░      ░  ▒   ▒▒ ░░ ░▒  ░ ░    ░     ░ ░  ░  ░▒ ░ ▒░<br/>
               ░   ░ ░ ░ ░ ░ ▒    ░         ░      ░      ░     ░   ▒   ░  ░  ░    ░         ░     ░░   ░<br/>
               ░     ░ ░              ░  ░          ░         ░  ░      ░              ░  ░   ░
+            </TabletAndAbove>
+              <Mobile>
+                <Typography>NOTE MASTER</Typography>
+              </Mobile>
             </Row>
             <Spacer size={48} />
             <label htmlFor="bpm">
@@ -161,6 +167,11 @@ const NoteRow = styled(Row)`
 const NoteTypography = styled(Typography)`
   font-size: 200px;
   line-height: 200px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 100px;
+    line-height: 100px;
+  }
 `;
 
 const OuterColumn = styled(Column)`
@@ -173,6 +184,10 @@ const OuterColumn = styled(Column)`
 const InnerColumn = styled(Column)`
   width: 70%;
   min-width: 764px;
+
+  @media screen and (max-width: 768px) {
+    min-width: unset;
+  }
   padding: 48px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

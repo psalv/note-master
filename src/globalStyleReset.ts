@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyleResets = createGlobalStyle`
 /* -- RESET CSS -- */
@@ -29,6 +29,10 @@ td {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  background-color: black;
 }
 
 a,
