@@ -74,7 +74,7 @@ export class App extends React.Component<
 
   setBpm = (bpm: number) => {
     this.setState({
-      bpm: Math.max(0, Math.min(MAX_BPM, bpm)),
+      bpm: isNaN(bpm) ? 1 : Math.max(0, Math.min(MAX_BPM, bpm)),
     });
   };
 
@@ -93,7 +93,7 @@ export class App extends React.Component<
   };
 
   setCycleLength = (cycleLength: number) => {
-    const value = Math.max(1, cycleLength);
+    const value = isNaN(cycleLength) ? 0 : Math.max(1, cycleLength);
     this.setState({
       cycleLength: value,
       timeUntilChange: value,
@@ -169,8 +169,8 @@ const NoteTypography = styled(Typography)`
   line-height: 200px;
 
   @media screen and (max-width: 768px) {
-    font-size: 100px;
-    line-height: 100px;
+    font-size: 75px;
+    line-height: 75px;
   }
 `;
 
