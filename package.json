@@ -1,0 +1,47 @@
+{
+  "name": "note_master",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/lodash": "^4.14.181",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-swipeable-views": "^0.13.0",
+    "@types/react-swipeable-views-utils": "^0.13.2",
+    "@types/styled-components": "^5.1.4",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "react-swipeable-views": "^0.13.9",
+    "react-swipeable-views-utils": "^0.14.0-alpha.0",
+    "styled-components": "^5.2.1",
+    "tone": "^14.7.77",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.0"
+  }
+}
